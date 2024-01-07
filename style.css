@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#map { 
+    height: 1000px;
+    z-index: 10;
+ }
+
+
+ body{
+    font-family: 'Poppins', sans-serif; 
+    font-family: 'Indie Flower', cursive;
+ }
+
+ .wrapper{
+    display: flex;
+    align-items: start;
+    margin-top: 79px;
+    position: fixed;
+    left: 10px;
+    z-index: 50;
+    height: 100vh;
+ }
+
+ aside{
+    background: rgba(53, 51, 51, .7);
+    color: white;
+    height: 600px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+ }
+
+ aside:hover{
+    background: rgb(53, 51, 51);
+
+ }
+ 
+
+ aside h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'indie flower';
+    font-size: 33px;
+    letter-spacing: 9px;
+    background: rgb(53, 51, 51);
+    padding: 3px;
+    border-radius: 10px;
+    margin: 10px 0 20px;
+ }
+
+ form{
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form select{
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 15px;
+    border: none;
+}
+
+.buttons{
+    flex-direction: row;
+}
+
+.buttons button{
+    flex: 1;
+    width: 100%;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins';
+    cursor: pointer;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+.buttons button:first-child{
+    background: rgb(141, 139, 139);
+
+}
+
+.buttons button:hover{
+    filter: brightness(70%);
+    border: 2px solid purple;
+}
+
+/* listeleme  alanı */
+ul{
+    height: 100%;
+    margin-top: 20px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+
+
+ul li{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(70, 70, 70);
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+}
+
+ul li p:first-child{
+    font-family: 'indie flower';
+    font-size: x-large;
+}
+
+li p span:first-child{
+    font-weight: bold;
+}
+
+li .icons{
+    display: flex;
+    gap: 10px;
+}
+
+li i{
+    cursor: pointer;
+    font-size: 21px;
+    transition: all 0.3s;
+}
+
+li .icons i:first-child:hover{
+filter: drop-shadow(0 0 10px rgb(0, 180, 260)
+);}
+
+li .icons i:last-child:hover{
+    filter: drop-shadow(0 0 10px red);
+}
