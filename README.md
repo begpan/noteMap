@@ -14,7 +14,7 @@ It is a website created with JavaScript that allows you to select the location o
 
 <h3>Links</h3>
 
-https://notemap.netlify.app/
+https://notemap.netlify.app/ </br>
 https://notemap.vercel.app/
 
 <h3>Screen Gif</h3>
