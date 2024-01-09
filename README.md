@@ -19,3 +19,6 @@ https://notemap.vercel.app/
 
 <h3>Screen Gif</h3>
 
+![notemap](https://github.com/begpan/noteMap/assets/145170180/485dd479-b978-43b7-a2f6-44821362a5b1)
+
+
